@@ -79,7 +79,7 @@ $dataSeriesValues1 = [
 // Build the dataseries
 $series1 = new DataSeries(
     DataSeries::TYPE_LINECHART, // plotType
-    DataSeries::GROUPING_PERCENT_STACKED, // plotGrouping
+    DataSeries::GROUPING_STANDARD, // plotGrouping
     range(0, count($dataSeriesValues1) - 1), // plotOrder
     $dataSeriesLabels1, // plotLabel
     $xAxisTickValues1, // plotCategory
